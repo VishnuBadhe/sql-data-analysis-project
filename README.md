@@ -22,3 +22,15 @@ The focus is on solving real-world business problems using structured queries an
 - Insight extraction from structured data
 
 The queries in this repository are designed to reflect practical data analyst responsibilities and business-oriented thinking.
+
+---
+
+## 📊 Analysis & Insights
+
+### 1️⃣ Total Sales & Profit by Year
+
+![Total Sales & Profit by Year](screenshots/01_sales_profit_by_year.png)
+
+**Insight:**  
+Shows year-wise growth in sales and profit, helping identify overall business performance trends and consistency over time.
+
