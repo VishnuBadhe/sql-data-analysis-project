@@ -55,6 +55,14 @@ Analyzed month-wise sales trends to identify seasonality and performance fluctua
 **Insight:**
 Analyzed total sales contribution by product category to identify high-performing and underperforming categories. This supports category-level strategy, pricing decisions, and portfolio optimization.
 
+### 5️⃣ Customer Contribution Analysis
+
+![Customer Contribution](screenshots/05_customer_contribution.png)
+
+**Insight:**
+Identified top customers contributing the highest revenue. This analysis helps businesses focus on key accounts, improve customer retention strategies, and reduce dependency on low-value customers.
+
+
 
 
 
