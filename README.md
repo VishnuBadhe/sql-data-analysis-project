@@ -34,13 +34,19 @@ The queries in this repository are designed to reflect practical data analyst re
 **Insight:**  
 Shows year-wise growth in sales and profit, helping identify overall business performance trends and consistency over time.
 
----
-
 ### 2️⃣ Top 5 Products by Total Sales
 
 ![Top 5 Products by Total Sales](screenshots/02_top_products_by_sales.png)
 
 **Insight:**  
 Identifies the highest revenue-generating products, helping businesses prioritize inventory planning, marketing focus, and sales strategy.
+
+### 3️⃣ Monthly Sales Trend
+
+![Monthly Sales Trend](screenshots/03_monthly_sales_trend.png)
+
+**Insight:**
+Analyzed month-wise sales trends to identify seasonality and performance fluctuations. This helps businesses understand peak sales periods and plan inventory and marketing strategies accordingly.
+
 
 
