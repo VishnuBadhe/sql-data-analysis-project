@@ -1,68 +1,87 @@
 # SQL-Based Data Analysis & Query Development
 
-## Project Overview
-This project demonstrates hands-on SQL skills used for data analysis, reporting, and insight generation from relational databases.  
-The focus is on solving real-world business problems using structured queries and analytical logic.
+## 📌 Project Overview
+This project demonstrates hands-on SQL skills applied to real-world business analysis scenarios using a relational database (Northwind).  
+The focus is on extracting actionable insights through structured queries, aggregations, and analytical logic commonly used by Data Analysts.
 
-## Tools & Technologies
+The analyses reflect typical responsibilities such as sales performance tracking, trend analysis, category contribution, and customer-level insights.
+
+---
+
+## 🛠️ Tools & Technologies
 - SQL Server
-- Relational Databases
+- SQL Server Management Studio (SSMS)
+- Relational Database (Northwind)
 
-## SQL Concepts Used
-- Joins (INNER, LEFT)
-- Common Table Expressions (CTEs)
+---
+
+## 🧠 SQL Concepts Used
+- Joins (INNER JOIN)
 - Aggregations & Grouping
-- Conditional Logic
-- Filtering & Sorting
-
-## Use Cases Covered
-- Sales performance analysis
-- Business reporting
-- Data filtering and grouping
-- Insight extraction from structured data
-
-The queries in this repository are designed to reflect practical data analyst responsibilities and business-oriented thinking.
+- Common Table Expressions (CTEs)
+- Date-based analysis
+- Conditional calculations
+- Sorting & Ranking
 
 ---
 
 ## 📊 Analysis & Insights
 
 ### 1️⃣ Total Sales & Profit by Year
-
 ![Total Sales & Profit by Year](screenshots/01_sales_profit_by_year.png)
 
 **Insight:**  
-Shows year-wise growth in sales and profit, helping identify overall business performance trends and consistency over time.
+Analyzed year-wise sales and profit trends to evaluate overall business growth and performance consistency over time. This helps identify long-term profitability patterns and strategic direction.
 
-### 2️⃣ Top 5 Products by Total Sales
+---
 
-![Top 5 Products by Total Sales](screenshots/02_top_products_by_sales.png)
+### 2️⃣ Top Products by Sales
+![Top Products by Sales](screenshots/02_top_products_by_sales.png)
 
 **Insight:**  
-Identifies the highest revenue-generating products, helping businesses prioritize inventory planning, marketing focus, and sales strategy.
+Identified top-performing products based on total sales contribution. This analysis supports product prioritization, inventory planning, and revenue-focused decision-making.
+
+---
 
 ### 3️⃣ Monthly Sales Trend
-
 ![Monthly Sales Trend](screenshots/03_monthly_sales_trend.png)
 
-**Insight:**
-Analyzed month-wise sales trends to identify seasonality and performance fluctuations. This helps businesses understand peak sales periods and plan inventory and marketing strategies accordingly.
+**Insight:**  
+Examined month-wise sales trends to identify seasonality and demand fluctuations. This insight helps businesses plan promotions, inventory, and operational capacity more effectively.
+
+---
 
 ### 4️⃣ Sales by Product Category
-
 ![Sales by Category](screenshots/04_sales_by_category.png)
 
-**Insight:**
-Analyzed total sales contribution by product category to identify high-performing and underperforming categories. This supports category-level strategy, pricing decisions, and portfolio optimization.
+**Insight:**  
+Analyzed total sales contribution across product categories to identify high-performing and underperforming segments. This supports category-level strategy and portfolio optimization.
+
+---
 
 ### 5️⃣ Customer Contribution Analysis
-
 ![Customer Contribution](screenshots/05_customer_contribution.png)
 
-**Insight:**
-Identified top customers contributing the highest revenue. This analysis helps businesses focus on key accounts, improve customer retention strategies, and reduce dependency on low-value customers.
+**Insight:**  
+Identified top customers contributing the highest revenue. This analysis helps focus on key accounts, improve customer retention strategies, and assess revenue concentration risk.
 
+---
 
-
-
-
+## 📂 Repository Structure
+```text
+sql-data-analysis-project/
+│
+├── README.md
+├── queries/
+│   ├── 01_sales_profit_by_year.sql
+│   ├── 02_top_products_by_sales.sql
+│   ├── 03_monthly_sales_trend.sql
+│   ├── 04_sales_by_category.sql
+│   └── 05_customer_contribution.sql
+│
+└── screenshots/
+    ├── 01_sales_profit_by_year.png
+    ├── 02_top_products_by_sales.png
+    ├── 03_monthly_sales_trend.png
+    ├── 04_sales_by_category.png
+    └── 05_customer_contribution.png
