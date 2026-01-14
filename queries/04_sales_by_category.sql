@@ -1,14 +1,16 @@
--- Top 10 Products by Total Sales
+-- Total Sales by Product Category
 
-SELECT TOP 10
-    P.ProductName,
+SELECT
+    C.CategoryName,
     SUM(OD.UnitPrice * OD.Quantity * (1 - OD.Discount)) AS TotalSales
 FROM Orders O
 JOIN [Order Details] OD 
     ON O.OrderID = OD.OrderID
 JOIN Products P 
     ON OD.ProductID = P.ProductID
-GROUP BY 
-    P.ProductName
-ORDER BY 
+JOIN Categories C 
+    ON P.CategoryID = C.CategoryID
+GROUP BY
+    C.CategoryName
+ORDER BY
     TotalSales DESC;
