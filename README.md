@@ -48,5 +48,13 @@ Identifies the highest revenue-generating products, helping businesses prioritiz
 **Insight:**
 Analyzed month-wise sales trends to identify seasonality and performance fluctuations. This helps businesses understand peak sales periods and plan inventory and marketing strategies accordingly.
 
+### 4️⃣ Sales by Product Category
+
+![Sales by Category](screenshots/04_sales_by_category.png)
+
+**Insight:**
+Analyzed total sales contribution by product category to identify high-performing and underperforming categories. This supports category-level strategy, pricing decisions, and portfolio optimization.
+
+
 
 
