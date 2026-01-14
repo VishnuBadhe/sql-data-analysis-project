@@ -34,3 +34,13 @@ The queries in this repository are designed to reflect practical data analyst re
 **Insight:**  
 Shows year-wise growth in sales and profit, helping identify overall business performance trends and consistency over time.
 
+---
+
+### 2️⃣ Top 5 Products by Total Sales
+
+![Top 5 Products by Total Sales](screenshots/02_top_products_by_sales.png)
+
+**Insight:**  
+Identifies the highest revenue-generating products, helping businesses prioritize inventory planning, marketing focus, and sales strategy.
+
+
